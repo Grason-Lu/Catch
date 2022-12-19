@@ -1,7 +1,7 @@
 # Data_Source
 Academic Datasets:  
-PimaIndian: \ https://www.kaggle.com/uciml/pima-indians-diabetes-database  
-SpectF: \ https://archive.ics.uci.edu/ml/datasets/SPECTF+Heart  
+PimaIndian: https://www.kaggle.com/uciml/pima-indians-diabetes-database  
+SpectF:  https://archive.ics.uci.edu/ml/datasets/SPECTF+Heart  
 German Credit: \ https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)  
 Bikeshare DC: \ https://www.kaggle.com/itssuru/bike-sharing-system-washington-dc  
 Housing Boston: \ https://archive.ics.uci.edu/ml/machine-learning-databases/housing/  
