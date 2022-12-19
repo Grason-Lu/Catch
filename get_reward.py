@@ -142,7 +142,7 @@ class GetReward(object):
         return model
 
     def get_svm_model(self):
-        # 选择模型
+        # choose model
         if self.task_type == 'classifier':
             model = ModelBase.svm_liner_svc()
         elif self.task_type == 'regression':
