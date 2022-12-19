@@ -79,16 +79,8 @@ def main():
     #read data
     # csv
     all_data = pd.read_csv(_args.dataset_path)
-    # all_data[_args.target_col] = np.log(all_data[_args.target_col])
-    # all_data.drop_duplicates(keep='first', inplace=True)
-    # all_data.reset_index(drop=True, inplace=True)
-    #all_data = all_data[0:10000]
-    #all_data['loss'] = np.log(all_data['loss'])
-    #
 
     #fill num
-    # all_data.replace('NA', np.nan)
-    # all_data.fillna(0, inplace=True)
     for x in _args.continuous_col:
         all_data[x].replace('?', np.nan, inplace=True)
         all_data[x].replace("NA", np.nan, inplace=True)
@@ -123,12 +115,6 @@ def main():
         _args.discrete_col = T.cat
 
     # _args.continuous_col.remove('Id')
-
-    # reduce features number
-    # if _args.is_select > 0:
-    #     z = pre.mk_features(_args, min(_args.is_select, all_data.shape[1]))
-    #     _args.continuous_col = list(set(z) & set(_args.continuous_col))
-    #     _args.discrete_col = list(set(z) & set(_args.discrete_col))
 
 
     features = _args.continuous_col + _args.discrete_col
