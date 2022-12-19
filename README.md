@@ -1,4 +1,4 @@
-# Data_Source:  
+# Data_Source
 Academic Datasets:  
 PimaIndian: \\ https://www.kaggle.com/uciml/pima-indians-diabetes-database  
 SpectF: \\ https://archive.ics.uci.edu/ml/datasets/SPECTF+Heart  
